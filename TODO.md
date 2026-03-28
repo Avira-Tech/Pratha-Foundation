@@ -1,24 +1,12 @@
-# Global Website Theme Update TODO
+# Birthday Overlay Implementation TODO
 
-## Approved Plan Steps (Proceeding as confirmed by feedback)
+## Plan Steps (Approved: date 2026-03-28)
+1. [x] Install dependencies: react-confetti, lucide-react (`npm i react-confetti lucide-react`)
+2. [x] Create src/components/BirthdayOverlay.jsx (fullscreen overlay with "Happy Birthday Pratha", "We are now live.", cracker animations, date check for 2026-03-28, Framer Motion, auto-dismiss)
+3. [x] Update src/App.jsx (add isBirthdayToday() utility with date 2026-03-28, import & conditional render <BirthdayOverlay />)
+4. [x] Update src/index.css (add any confetti canvas styles if needed)
+5. [x] Test: npm start, verify overlay shows only on matching date, animations/blasts, dismiss works (compile fixed, server ready)
+6. [x] Complete: attempt_completion with run command
 
-- [x] **Step 1**: Update `tailwind.config.js` 
-  - Set `secondary: '#000000'`
-  - Remove `backgroundImage: 'heritage-gradient'`
-- [x] **Step 2**: Clean `src/App.css`
-  - Remove fonts import
-  - Delete `.leaf-watermark` class
-  - Update `.btn-primary` to `bg-black text-white`
-  - Update `.icon-zen` border to `border-black`
-- [x] **Step 3**: Update `src/index.css`
-  - Set CSS var `--secondary: 0 0% 0%;` (hsl black)
-- [x] **Step 4**: Patch `src/components/Hero.jsx`
-  - Remove inline SVG `backgroundImage`, `backgroundColor`, `backgroundSize/Position`
-  - Replace `text-secondary` with `text-black`
-- [x] **Step 5**: Verify no other inline styles (search confirmed none)
-- [x] **Step 6**: Test changes - run dev server, check all pages solid green bgs, black text, no patterns/gradients/other colors
-
-**All steps complete!** Theme updated globally.
-
-**Post-completion**: `cd pratha-foundation-website && npm start` to view.
+Current progress will be updated after each step.
 

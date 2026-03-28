@@ -6,19 +6,19 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: 'Laxmi Devi',
-      role: 'Self-Help Group Leader, Bihar',
+      role: 'Self-Help Group Leader, Nagpur, Maharashtra',
       quote: "Before Pratha Foundation, we didn't know how to save money or start a small business. Their vocational training gave us dignity.",
       initials: 'LD'
     },
     {
       name: 'Arjun Das',
-      role: 'Local Farmer, Odisha',
+      role: 'Local Farmer, Pune, Maharashtra',
       quote: "The tree plantation drive wasn't just about shade; it saved our soil. My yield has improved by 40% this year.",
       initials: 'AD'
     },
     {
       name: 'Sunita Meena',
-      role: 'Asha Worker, Rajasthan',
+      role: 'ASHA Worker, Mumbai, Maharashtra',
       quote: "Health camps brought specialist doctors and free medicines to our doorstep. They saved my neighbor's life.",
       initials: 'SM'
     }
